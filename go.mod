@@ -2,11 +2,13 @@ module github.com/kunikuni03/tui-todo
 
 go 1.17
 
-require github.com/rivo/tview v0.0.0-20211029142923-a4acb08f513e
+require (
+	github.com/gdamore/tcell/v2 v2.4.1-0.20210905002822-f057f0a857a1
+	github.com/rivo/tview v0.0.0-20211029142923-a4acb08f513e
+)
 
 require (
 	github.com/gdamore/encoding v1.0.0 // indirect
-	github.com/gdamore/tcell/v2 v2.4.1-0.20210905002822-f057f0a857a1 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
